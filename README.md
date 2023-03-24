@@ -16,7 +16,7 @@
   This programs prompts the user with questions using inquirer to make a professional README.md for your repos.
   
   ## User Story
-  undefined
+  As a USER, I want to build a README more simply without missing any vital information
   
   ## How to Use
   To use this program, you must install inquirer@8.2.4 and intialize the npm then do 'node index' in the GitHub command terminal.
@@ -32,4 +32,7 @@
 
   ## Contact Me
   GitHub: https://github.com/zzurawski
+  
+  ## Video Link
+  https://drive.google.com/file/d/1x75UKsmDW7EXUTgfMy_ck_OO6CMmqNBl/view
   
