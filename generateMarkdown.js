@@ -48,8 +48,8 @@ function generateMarkdown(data) {
 
   ## Table of Contents
   -> [Description](#description)
-  -> [User Story](#UserStory)
-  -> [How to Use](#HowtoUse)
+  -> [User Story](#User Story)
+  -> [How to Use](#How to Use)
   -> [Purpose](#Purpose)
   -> [Collaborators](#Collaborators)
   -> [License](#License)
@@ -59,7 +59,7 @@ function generateMarkdown(data) {
   ${data.repo_desc}
   
   ## User Story
-  ${data.userstory}
+  ${data.repo_userstory}
   
   ## How to Use
   ${data.repo_use}
@@ -72,7 +72,7 @@ function generateMarkdown(data) {
   
   ${renderLicenseSection(data.pick_license)}
 
-  ## Contact Me
+  ## Contact
   GitHub: https://github.com/${data.contact}
   `
 }
